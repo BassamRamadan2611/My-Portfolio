@@ -218,9 +218,7 @@ opacity: 0;
 background-color: rgba(246, 247, 248, 0.7);
 
 }
-.member a{
-  border: none;
-}
+
 
 .member-caption h2 {
   margin-top: 0px;
@@ -232,14 +230,16 @@ background-color: rgba(246, 247, 248, 0.7);
   transition: all 1s 2s;
 }
 .member-caption p{
-  font-size: 20px;
- padding: 10px;
+  font-size: 15px;
+
   position: relative;
   left: 120%;
   transition: all 1s 2s  ;
 }
 .member-caption a {
   position: relative;
+  margin-top: 10px;
+  border: none;
   left: 120%;
   transition: all 1s 2s  
 }
@@ -736,14 +736,7 @@ padding: 15px;
   font-weight: var(--font-semi);
   padding: 2rem 0;
 }
-.footer p{
-  position: relative;
-}
-.footer img{
-  display: inline-block;
-  position: absolute;
-  right: 50%;
-}
+
 
 .footer__title{
   font-size: 2rem;
